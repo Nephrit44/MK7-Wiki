@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -10,50 +10,21 @@
     <section class="MOS-wiki">
       <h2 class="title">MOS Инструкции для операционной системы</h2>
       <h3 class="subTitle">
-        Пересоздания учетной записи пользователя если она
-        повреждена, замусорилась, неисправна.
+        Пересоздания учетной записи пользователя если она повреждена,
+        замусорилась, неисправна.
       </h3>
-      <ul class="row">
-        <li class="row__block">
-          <p>Если ваш графический интерфейс хоть как-то отзывается, вызовите терминал с помощью клавиш:</p>
-          <p class="block-code">ctrl + alt + t</p>
-        </li>
-        <li class="row__block">
-          <p>Если графический интерфейс не исправен, воспользуйтесь комбинацией клавиш:</p>
-          <p class="block-code">ctrl + alt +f3</p>
-        </li>
-        <li class="row__block">
-          <p>Авторизуйтесь как администратор</p>
-        </li>
-        <li class="row__block">
-          <p>
-            Вызовите команду по завершению неисправной учётной записи. При успехе вас ваыбросить в меню выбора другой учётной записи.
-          </p>
-          <p class="block-code">sudo pkill -9 -u имя учётной записи</p>
-        </li>
-        <li class="row__block">
-          <p>
-            Перейдите в учётную запись администратора с графическим интерфейсом
-          </p>
-        </li>
-        <li class="row__block">
-          <p>Нажмите на кнопку "Пуск"</p>
-          <img
-            class="block-img icon"
-            src="./css/MOS/logo.svg"
-            alt="Логотип операционной системы М ОС"
-          />
-        </li>
-        <li class="row__block">
-          <p>Выбирете пункт <span class="accentText">"Утилиты"</span></p>
-          <p>Далее в программу "Управление пользователями"</p>
-          <img
-            class="block-img image"
-            src="./css/MOS/image-1.png"
-            alt="Скриншот из меню пуск"
-          />
-        </li>
-      </ul>
+      <ul class="list"></ul>
     </section>
   </body>
+
+  <template id="defaultRow">
+    <li class="list__item">
+      <span class="counter"></span>
+      <p class="block-content"></p>
+      <p class="block-code"></p>
+      <img class="block-img" src="" alt="" />
+    </li>
+  </template>
+  <script src="./js/db0001.js"></script>
+  <script src="./js/main.js"></script>
 </html>
