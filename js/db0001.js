@@ -48,21 +48,21 @@ db0001[4] = {
 db0001[5] = {
   textContent: "Нажмите на кнопку Пуск",
   blockCode: "",
-  blockImg: "./css/MOS/logo.svg",
+  blockImg: "./images/MOS/logo.svg",
   typeImg:"icon", //icon или image
   altImg:"Логотип операционной системы М ОС",
 };
 db0001[6] = {
   textContent: "Выбирете пункт Утилиты и далее программу Управление пользователями",
   blockCode: "",
-  blockImg: "./css/MOS/image-1.png",
+  blockImg: "./images/MOS/image-1.png",
   typeImg:"image", //icon или image
   altImg:"Скриншот из меню пуск", //Описание, которое отобразится в случае поломки картинки
 };
 db0001[7] = {
   textContent: "Авторизоваться под администраторской учётной записью",
   blockCode: "",
-  blockImg: "./css/MOS/image-2.png",
+  blockImg: "./images/MOS/image-2.png",
   typeImg:"image", //icon или image
   altImg:"Скриншот окна утентификации", //Описание, которое отобразится в случае поломки картинки
 };
@@ -83,7 +83,7 @@ db0001[9] = {
 db0001[10] = {
   textContent: "Перезагрузите компьютер. В настройках системы установлено, что по-умолчанию компьютер будет грузиться с учётной записью user",
   blockCode: "",
-  blockImg: "./css/MOS/image-3.png",
+  blockImg: "./images/MOS/image-3.png",
   typeImg:"image", //icon или image
   altImg:"Скриншот окна управления пользователями", //Описание, которое отобразится в случае поломки картинки
 };

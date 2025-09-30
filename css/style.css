@@ -2,6 +2,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --mainFont: "Roboto Condensed", sans-serif;
+}
+
 ul {
   list-style: none;
   padding: 0;
@@ -15,6 +19,10 @@ p {
 body {
   padding: 10px;
   font-size: 16px;
+  font-family: var(--mainFont);
+  font-size: 16px;
+  line-height: normal;
+  font-weight: 400;
 }
 
 .title {
